@@ -24,18 +24,9 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  songs.count 
+  Song.songs.count 
 end
 
-
-  def posts
-    Post.posts.select {|post| post.author == self}
-  end
-
-  def self.post_count
-    Post.posts.count
-  end
-  
   
 
 end

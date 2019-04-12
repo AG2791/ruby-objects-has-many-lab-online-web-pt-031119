@@ -25,7 +25,7 @@ end
 
 def self.song_count
   
-  Song.all.
+  @@song.count 
   
 end
 

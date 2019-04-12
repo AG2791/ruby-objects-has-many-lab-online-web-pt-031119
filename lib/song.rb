@@ -1,6 +1,6 @@
 class Song 
   
-  @@songs
+  @@songs = []
   
   def initialize(name)
     @name =name
